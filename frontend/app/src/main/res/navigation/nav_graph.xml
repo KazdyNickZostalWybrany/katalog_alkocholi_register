@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentLogin">
+
+    <fragment
+        android:id="@+id/fragment_brand"
+        android:name="com.alko.frontend.views.fragments.BrandFragment"
+        android:label="BrandList" >
+        <action
+            android:id="@+id/action_brand_to_alko_list"
+            app:destination="@id/fragment_alko_list" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_alko_list"
+        android:name="com.alko.frontend.views.fragments.AlcoholListFragment"
+        android:label="AlkoList">
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentLogin"
+        android:name="com.alko.frontend.views.fragments.LoginFragment"
+        android:label="StartFragment">
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentDoctor2"
+            app:destination="@id/fragment_brand" />
+    </fragment>
+
+</navigation>

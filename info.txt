@@ -1,0 +1,27 @@
+Przydatne pojęcia
+
+Java
+Project Lombok
+Kotlin
+Spring
+Swagger
+Api
+REST API
+RESTfull api
+Spring Controller
+Android Activity
+Android Fragment
+Retrofit
+
+http://10.0.0.60:8080/
+http://10.0.0.60:8080/h2-console
+spring.datasource.username=sa
+spring.datasource.password=password
+http://10.0.0.60:8080/v2/api-docs
+
+Testowane na Launching 'app' on Nexus 5 API 25.
+
+Koniecznie ustawić poprawne
+API_URL w MainActivity
+oraz
+sdk.dir w local.properties

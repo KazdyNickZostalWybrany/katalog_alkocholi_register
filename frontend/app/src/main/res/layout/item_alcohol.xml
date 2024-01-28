@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txtBrand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14sp"
+        tools:text="Brand name" />
+
+    <TextView
+        android:id="@+id/txtAlcohol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Juice name" />
+
+</LinearLayout>
